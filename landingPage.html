@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="./img/headerImage.png" alt="">
+    </header>
+
+    <section id="launchingSection">
+        <h2>DANCE INFORMA MAGAZINE</h2>
+        <div class="launchingDiv">
+            <h4>Launching in the UK in 2023</h4>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img id="magazine" src="./img/magzine1.png" alt="">
+                </div>
+                <div class="col-lg-4">
+                    <img id="magazine" src="./img/magazine2.png" alt="">
+                </div>
+                <div class="col-lg-4">
+                    <img id="magazine" src="./img/magazine3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="formSection">
+        <div id="formDiv">
+            <div id="formHeadingDiv">
+                <p class="formHeading">Subscribe <span class="free">FREE</span> now to receive
+                    the inaugural edition.</p>
+            </div>
+            <form>
+                <div class="mb-3">
+                    <input type="text" class="form-control" id="fname" aria-describedby="emailHelp"
+                        placeholder="First Name">
+                    <input type="text" class="form-control" id="lname" aria-describedby="emailHelp"
+                        placeholder="Last Name">
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Email address">
+                </div>
+                <div class="mb-3">
+                    <select class="form-select">
+                        <option>Country</option>
+                    </select>
+                    <select class="form-select">
+                        <option>State</option>
+                    </select>
+                </div>
+                <div>
+                    <div class="mb-3 form-check">
+                        <div>
+                            <input type="checkbox" class="form-check-input" id="checkBox">
+                            <label class="form-check-label" for="exampleCheck1">Dancer</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" class="form-check-input" id="checkBox">
+                            <label class="form-check-label" for="exampleCheck1">Studio Owner</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" class="form-check-input" id="checkBox">
+                            <label class="form-check-label" for="exampleCheck1">Teacher</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" class="form-check-input" id="checkBox">
+                            <label class="form-check-label" for="exampleCheck1">Dance Parent</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3 form-check">
+                    <div>
+                        <input type="checkbox" class="form-check-input" id="checkBox">
+                        <label class="form-check-label" for="exampleCheck1">I agree to the <a href="#"> terms and
+                                conditions.</a></label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary"><span class="subscribeNow">SUBSCRIBE NOW!</span></button>
+            </form>
+        </div>
+    </section>
+
+    <section id="waveSection">
+        <div class="waveHeader">
+            <div>
+                <svg class="waves" xmlns='http://www.w3.org/2000/svg' xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                    <defs>
+                        <path id="gentle-wave"
+                            d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+                    </defs>
+                    <g class="parallax">
+                        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,50%)"></use>
+                        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,30%)"></use>
+                        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,10%)"></use>
+                        <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff"></use>
+                    </g>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+<!--
+    <section id="waveSection">
+        <div class="wave">
+            <div class="wave-1"></div>
+            <div class="wave-2"></div>
+            <div class="wave-3"></div>
+        </div>
+    </section>
+    -->
+
+    <footer>
+        <p class="footerText">Copyright © 2023 | Dance Informa | All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

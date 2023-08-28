@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    ;
+}
+
+header {
+    background: #212121;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#launchingSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 64px;
+    line-height: 89.6px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.launchingDiv {
+    max-width: 100%;
+    background: linear-gradient(90deg, #E06D8F 0%, #EB8567 101.06%);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 56px;
+    color: #ffffff;
+}
+
+#magazine {
+    max-width: 100%;
+}
+
+#formDiv {
+    max-width: 100%;
+    width: 690px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    padding: 48px 32px 32px 32px;
+    border-radius: 24px;
+    background: linear-gradient(0deg, #E7E7E7, #E7E7E7),
+        linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 1px solid #E7E7E7
+}
+
+.subscribeNow{
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+input {
+    border: 1px solid #E9E9E9;
+    background: linear-gradient(0deg, #E9E9E9, #E9E9E9),
+        linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    padding: 24px;
+    border-radius: 8px;
+}
+
+#checkBox{
+    padding: 10px;
+}
+
+.btn-primary{
+    border: 1px solid #F25C00;
+    max-width: 100%;
+    width: 626px;
+    height: 62px;
+    background-color: #F25C00;
+    padding: 24px;
+    padding-top: 17px;
+    border-radius: 8px;
+    transition: .5s;
+}
+
+.btn-primary:hover{
+    background-color: white;
+    color: #F25C00;
+    border-color: #F25C00;
+
+}
+
+.btn-primary:hover span{
+    color: #F25C00;
+}
+
+.mb-3{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+option{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.form-check{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    justify-content: baseline;
+    align-items: baseline;
+}
+.form-check-input[type=checkbox]{
+    border-color: #F25C00;
+    border: 2px solid #F25C00;
+    width: 14px;
+    height: 14px;
+    border-radius: 3px;
+    margin-left: 2px;
+}
+
+.form-check-input[type=checkbox]:hover{
+    background-color: #F25C00;
+}
+.form-check-input[type=checkbox]:active{
+    background-color: #F25C00;
+}
+.form-check-input[type=checkbox]:focus{
+    background-color: #F25C00;
+}
+
+.formHeading{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44.8px;
+    color: #000000;
+}
+
+.free{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44.8px;
+    color: #F25C00;
+}
+#formHeadingDiv{
+    width: 486px;
+    max-width: 100%;
+    text-align: center;
+}
+.form-select:focus{
+    box-shadow: none;
+    border-color: #E9E9E9;
+    outline: 0;
+}
+
+.form-select{
+    background: linear-gradient(0deg, #E9E9E9, #E9E9E9),
+linear-gradient(0deg, #FFFFFF, #FFFFFF);
+
+}
+
+label{
+    margin-top: 4px;
+    margin-left: 4px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25.5px;
+    color: #000000;
+}
+
+a{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25.5px;
+    color: #000000;
+    transition: .5s;
+}
+
+a:hover{
+    color: #F25C00;
+}
+
+.form-check-input:focus{
+    box-shadow: none;
+}
+
+.form-check-input:checked{
+    background-color: #F25C00;
+}
+
+#formSection{
+    display: flex; 
+    justify-content: center; 
+    margin-bottom: 50px;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border-color: #F25C00;
+}
+
+footer{
+    background-color: #000000;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 1px;
+}
+
+.footerText{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.waveHeader{
+    min-height: 265px;
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    background: linear-gradient(90deg, #E06D8F 0%, #EB8567 101.06%);
+   
+}
+
+.waves{
+    transform: rotate(180deg);
+    position: relative;
+    width: 100%;
+    height: 20vh;
+    margin-bottom: -7px;
+    min-height: 100px;
+    max-height: 150px;
+
+}
+
+.parallax>use{
+    animation: move-forever 25s cubic-bezier(.55,.5,.45,.5) infinite;
+}
+
+@keyframes move-forever {
+    0%{
+        transform: translate3d(-90px,0,0);
+    }
+    100%{
+        transform: translate3d(85px,0,0);
+    }
+}
+
+.parallax>use:nth-child(1){
+    animation-delay: -3s;
+    animation-duration: 10s;
+}
+.parallax>use:nth-child(2){
+    animation-delay: -3s;
+    animation-duration: 10s;
+}
+.parallax>use:nth-child(3){
+    animation-delay: -3s;
+    animation-duration: 10s;
+}
+.parallax>use:nth-child(4){
+    animation-delay: -3s;
+    animation-duration: 10s;
+}
+
+#waveSection{
+    margin-top: 75px;
+}
+/*
+.wave-1{
+    animation: wave 5s linear infinite;
+}
+.wave-1{
+    animation: wave 4s linear infinite;
+    animation-delay: 1s;
+}
+.wave-1{
+    animation: wave 3s linear infinite;
+    animation-delay: 2s;
+}
+
+@keyframes wave {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-100px);
+    }
+}
+
+.wave{
+    height: 265px;
+    background: linear-gradient(90deg, #E06D8F 0%, #EB8567 101.06%);
+}
+*/
